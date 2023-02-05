@@ -24,8 +24,8 @@ const Login = () => {
         <span className="logo">Chat</span>
         <span className="title">Login</span>
         <form onSubmit={handleSubmit}>
-          <input type="email" placeholder="email" />
-          <input type="password" placeholder="password" />
+          <input type="email" placeholder="E-mail" />
+          <input type="password" placeholder="Senha" />
           <button>Entrar</button>
           {err && <span>Algo deu errado.</span>}
         </form>
